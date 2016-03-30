@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>团队页面</title>
+		<style>
+			body,div{
+				margin:0;
+				padding:20px;
+				font-family: '微软雅黑';
+				
+			}
+			p{
+				vertical-align: top;
+				line-height: 1em;
+			}
+			img{
+				display:block;
+				width:80px;
+				height: 80px;
+				background: #eee;
+				outline: 1px solid #999;
+			}
+			.container{
+				background:#eee;
+				border:1px solid #999;
+				min-width: 600px;
+			}
+			.container:after{
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.container > div {
+				background: #fff;
+				border: 1px solid #999;
+			}
+			.container div:not(.info){
+				box-sizing: border-box;
+				line-heght: 1em;
+			}
+			.team_title{
+				float:left;
+				margin-right: 20px;
+				width: 200px;
+			}
+			.member-list{
+				float:right;
+				margin-left: 20px;
+				width: 120px;
+			}
+			.member-list > img + img{
+				margin-top: 20px;
+			}
+			.info{
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="team_title">
+				<img style="float: left; margin-right: 20px;">test123
+			</div>
+			<div class="member-list">
+				<img><img><img><img>
+			</div>
+			<div class="info">
+				<p>据说这里是介绍文字<p>
+				<p>随便敲进去test123，然后就注册成功了</p>
+				<p>然后又去群里召唤了下小伙伴</p>
+				<p>文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………文字…………</p>
+				<p>另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。另一些文字。。。</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
